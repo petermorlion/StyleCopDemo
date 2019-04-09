@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleCopDemo", "StyleCopDemo.csproj", "{025DF913-E75E-494E-A622-8BC8AF1CBD81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleCopDemo", "StyleCopDemo\StyleCopDemo.csproj", "{025DF913-E75E-494E-A622-8BC8AF1CBD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleCopDemo.Library", "StyleCopDemo.Library\StyleCopDemo.Library.csproj", "{FFA1D7CB-2C84-4D43-9E94-07514735E533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6458D42-7598-427A-A980-D5DFE45615D8}"
+	ProjectSection(SolutionItems) = preProject
+		StyleCopDemo.ruleset = StyleCopDemo.ruleset
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{025DF913-E75E-494E-A622-8BC8AF1CBD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025DF913-E75E-494E-A622-8BC8AF1CBD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025DF913-E75E-494E-A622-8BC8AF1CBD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA1D7CB-2C84-4D43-9E94-07514735E533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA1D7CB-2C84-4D43-9E94-07514735E533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA1D7CB-2C84-4D43-9E94-07514735E533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA1D7CB-2C84-4D43-9E94-07514735E533}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
