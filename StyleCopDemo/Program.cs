@@ -1,14 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// <copyright file="Program.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace StyleCopDemo
 {
-    class Program
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    /// <summary>
+    /// Our program
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Our main entry point
+        /// </summary>
+        /// <param name="args">Arguments to be passed to the application</param>
+        public static void Main(string[] args)
         {
             Output1();
             Output2();
@@ -17,7 +28,8 @@ namespace StyleCopDemo
             Console.ReadLine();
         }
 
-        private static void Output1() {
+        private static void Output1()
+        {
             Console.WriteLine("output 1");
         }
 
@@ -25,6 +37,7 @@ namespace StyleCopDemo
         {
             Console.WriteLine("output 2");
         }
+
         private static void Output3()
         {
             Console.WriteLine("output 3");
