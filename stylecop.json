@@ -9,6 +9,9 @@
   "settings": {
     "documentationRules": {
       "companyName": "RedStar IT"
+    },
+    "orderingRules": {
+      "usingDirectivesPlacement": "outsideNamespace"
     }
   }
 }
